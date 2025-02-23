@@ -10,7 +10,6 @@ body {
   font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-size: 16px;
-  background-color: purple;
 }
 
 a {
@@ -24,7 +23,6 @@ li {
 /* Header */
 .container {
   width: 1440px;
-  border: 1px solid red;
 }
 
 .header {
