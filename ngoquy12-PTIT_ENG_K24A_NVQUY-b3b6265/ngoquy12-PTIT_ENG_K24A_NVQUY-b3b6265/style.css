@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  background-color: purple;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header */
+.container {
+  width: 1440px;
+  border: 1px solid red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #ffffff;
+  padding: 0 100px 0 54px;
+  border-bottom: 1px solid #dadada;
+}
+
+.logo {
+  height: 41px;
+  width: 185px;
+}
+
+.header-middle {
+  display: flex;
+  gap: 75px;
+}
+
+.link {
+  color: #000000;
+  line-height: 24px;
+  font-weight: 500;
+  transition: all 0.1s linear;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+.header-right {
+  display: flex;
+  gap: 45px;
+}
+
+.header .icon {
+  height: 28px;
+  width: 28px;
+  object-fit: cover;
+}
+
+.banner{
+  height: 716.83px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.banner img{
+  width: 1440px;
+  object-fit: cover;
+}
+
+.banner .box{
+  position: absolute;
+  top: 153px;
+  right: 58px;
+  left: 739px;
+  background-color: #FFF3E3;
+  width: 643px;
+  height: 443px;
+  padding: 62px 43px 37px 39px;
+}
+
+.banner .text-1{
+  color: #333333;
+  line-height: 24px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.banner .text-2 p{
+  color: #b88e2f;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+}
+
+.banner .text-3{
+  color: #333333;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.banner button{
+  width: 222px;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #b88e2f;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 46px;
+  border: none;
+}
+
+.product-range {
+  margin: 56.47px 126px 0 131px;
+  height: 685px;
+}
+.product-range .title{
+  margin: 0 calc(449px - 126px) 0 calc(432px - 131px);
+  text-align: center;
+}
+
+.product-range .title .text-1{
+  color: #333333;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+.product-range .title .text-2{
+  color: #666666;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.product-range .bottom-content {
+  margin-top: 62.29px;
+  display: flex;
+  gap: 20px;
+}
+
+.product-range .bottom-content img{
+  width: 381px;
+  height: 480px;
+}
+.product-range .bottom-content p{
+  margin-top: 30px;
+  text-align: center;
+  color: #333333;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.our-product {
+  margin: 56px 102px 0;
+}
+.our-product .title{
+  text-align: center;
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+.our-product .box {
+  width: 285px;
+  position: relative;
+}
+.our-product .box .img{
+  width: 285px;
+  height: 301px;
+}
+.our-product .box .box-products {
+  background-color: #f4f5f7;
+  height: 145px;
+  padding: 16px 20px 30px 16px;
+}
+.our-product .box .box-products .text-1 {
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+.our-product .box .box-products .text-2 {
+  margin-top: 8px;
+  color: #898989;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.our-product .box .box-products .text-3-4 {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.our-product .box .box-products .text-3-4 .text-3 {
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.our-product .box .box-products .text-3-4 .text-4 {
+  color: #b0b0b0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration: line-through;
+}
+.our-product .box .icon{
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+}
+.display{
+  width: 252px;
+  height: 96px;
+  text-align: center;
+  color: #ffffff;
+}
+.box-display{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.72);
+  display: none;
+}
+.display button{
+  background-color: #ffffff;
+  color: #b88e2f;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 52px 12px 59px;
+  border: none;
+}
+.display img{
+  width: 16px;
+  height: 16px;
+}
+.display div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.display a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.our-product .box:hover .box-display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-product .top-row,.our-product .bottom-row{
+  display: flex;
+  justify-content: space-between;
+}
+.our-product .bottom-row{
+  margin-top: 32px;
+}
+.our-product .button-more{
+  margin: 44px calc(598px - 102px) 0 calc(597px - 102px);
+  border: 1px solid #b88e2f;
+  width: 245px;
+  height: 48px;
+  text-align: center;
+  color: #b88e2f;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.beautiful-room {
+}
+.funiro-furniture {
+}
+.footer {
+}
